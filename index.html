@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        font-family: "Merienda", cursive;
+        overflow-x: hidden;
+        background-color: #f0f8ff;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      .header {
+        background-color: #e6ffff;
+        text-align: center;
+      }
+
+      #title {
+        font-size: 36px;
+        font-style: italic;
+        margin: 10px 0;
+      }
+
+      #se-conecter img {
+        width: 120px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        transition: all 0.3s ease-in-out;
+      }
+      #se-conecter img:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+        border-radius: 20px;
+        transform: scale(1.05);
+      }
+
+      .categoryM,
+      .categoryW {
+        text-align: center;
+        font-size: 28px;
+        font-style: italic;
+        color: white;
+        padding: 10px;
+      }
+
+      .categoryM {
+        background-color: #0000ff98;
+      }
+
+      .categoryW {
+        background-color: #c3258c9f;
+      }
+
+      .images td {
+        text-align: center;
+        padding: 10px;
+      }
+
+      .images img {
+        width: 155px;
+        height: 155px;
+        transition: all 0.3s ease-in-out;
+      }
+
+      .images img:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+        border-radius: 20px;
+        transform: scale(1.05);
+      }
+
+      .price {
+        font-size: 20px;
+        text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        background-color: #f5f5f5;
+      }
+    </style>
+  </head>
+
+  <body>
+    <table>
+      <tr class="header">
+        <td colspan="4" id="title">E-SHOPPING</td>
+        <td id="se-conecter">
+          <a href="login.html" target="_blank">
+            <img src="log1.png" alt="login" />
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="5" class="categoryM">Men Watches:</td>
+      </tr>
+      <tr class="images">
+        <td>
+          <a
+            href="commande_produit.html?image=/montre1.jpg&price=3000 DA&ref=M0001W"
+            target="_blank"
+          >
+            <img src="montre1.jpg" alt="Product 1" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image=/montre2.jpg&price=3500 DA&ref=M0002W"
+            target="_blank"
+          >
+            <img src="montre2.jpg" alt="Product 2" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image= montre3.jpg&price=2500 DA&ref=M0003W"
+            ><img src=" montre3.jpg" alt="Product 3"
+          /></a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image= montre4.jpg&price=2000 DA&ref=M0004W"
+            target="_blank"
+          >
+            <img src=" montre4.jpg" alt="Product 4" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image= montre3.jpg&price=4000 DA&ref=M0005W"
+            target="_blank"
+          >
+            <img src=" montre5.jpg" alt="Product 5" />
+          </a>
+        </td>
+      </tr>
+      <tr class="price">
+        <td>Price: 3000 DA</td>
+        <td>Price: 3500 DA</td>
+        <td>Price: 2500 DA</td>
+        <td>Price: 2000 DA</td>
+        <td>Price: 4000 DA</td>
+      </tr>
+
+      <tr>
+        <td colspan="5" class="categoryW">Women Watches:</td>
+      </tr>
+      <tr class="images">
+        <td>
+          <a
+            href="commande_produit.html?image=montref1.jpg&price=3000 DA&ref=W0001W"
+            target="_blank"
+          >
+            <img src="montref1.jpg" alt="Product 1" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image=montref2.jpg&price=3500 DA&ref=W0002W"
+            target="_blank"
+          >
+            <img src="/montref2.jpg" alt="Product 2" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image=montref1.jpg&price=2500 DA&ref=W0003W"
+            target="_blank"
+          >
+            <img src="montref3.jpg" alt="Product 3" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image=   montref4.jpg&price=2000 DA&ref=W0004W"
+            target="_blank"
+          >
+            <img src="   montref4.jpg" alt="Product 4" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image=  montref5.jpg&price=4000 DA&ref=W0005W"
+            target="_blank"
+          >
+            <img src="  montref5.jpg" alt="Product 5" />
+          </a>
+        </td>
+      </tr>
+      <tr class="price">
+        <td>Price: 3000 DA</td>
+        <td>Price: 3500 DA</td>
+        <td>Price: 2500 DA</td>
+        <td>Price: 2000 DA</td>
+        <td>Price: 4000 DA</td>
+      </tr>
+
+      <tr>
+        <td colspan="5" class="categoryM">Men Shoes:</td>
+      </tr>
+      <tr class="images">
+        <td>
+          <a
+            href="commande_produit.html?image=
+            chaussureh1.jpg&price=4800 DA&ref=M0001S"
+            target="_blank"
+          >
+            <img src="  chaussureh1.jpg" alt="Product 1" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image=  chaussureh2.jpg&price=6500 DA&ref=M0002S"
+            target="_blank"
+          >
+            <img src="  chaussureh2.jpg" alt="Product 2" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image=  chaussureh3.jpg&price=8700 DA&ref=M0003S"
+            target="_blank"
+          >
+            <img src="  chaussureh3.jpg" alt="Product 3" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image=  chaussureh4.jpg&price=10000 DA&ref=M0004S"
+            target="_blank"
+          >
+            <img src="  chaussureh4.jpg" alt="Product 4" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image=  chaussureh5.jpg&price=12000 DA&ref=M0005S"
+            target="_blank"
+          >
+            <img src="  chaussureh5.jpg" alt="Product 5" />
+          </a>
+        </td>
+      </tr>
+      <tr class="price">
+        <td>Price: 4800 DA</td>
+        <td>Price: 6500 DA</td>
+        <td>Price: 8700 DA</td>
+        <td>Price: 10000 DA</td>
+        <td>Price: 12000 DA</td>
+      </tr>
+
+      <tr>
+        <td colspan="5" class="categoryM">Women Shoes:</td>
+      </tr>
+      <tr class="images">
+        <td>
+          <a
+            href="commande_produit.html?image=  chaussuref1.jpg&price=5000 DA&ref=W0001S"
+            target="_blank"
+          >
+            <img src="  chaussuref1.jpg" alt="Product 1" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image=  chaussuref2.jpg&price=5500 DA&ref=W0002S"
+            target="_blank"
+          >
+            <img src="  chaussuref2.jpg" alt="Product 2" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image=  chaussuref3.jpg&price=5800 DA&ref=W0003S"
+            target="_blank"
+          >
+            <img src="  chaussuref3.jpg" alt="Product 3" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image=  chaussuref4.jpg&price=6700 DA&ref=W0004S"
+            target="_blank"
+          >
+            <img src="  chaussuref4.jpg" alt="Product 4" />
+          </a>
+        </td>
+        <td>
+          <a
+            href="commande_produit.html?image=  chaussuref5.jpg&price=8000 DA&ref=W0005S"
+            target="_blank"
+          >
+            <img src="  chaussuref5.jpg" alt="Product 5" />
+          </a>
+        </td>
+      </tr>
+      <tr class="price">
+        <td>Price: 5000 DA</td>
+        <td>Price: 5500 DA</td>
+        <td>Price: 5800 DA</td>
+        <td>Price: 6700 DA</td>
+        <td>Price: 8000 DA</td>
+      </tr>
+    </table>
+    <script src="style.js"></script>
+  </body>
+</html>

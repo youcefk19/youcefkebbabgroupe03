@@ -1,0 +1,84 @@
+
+    
+      body {
+        background-image: url(images/login_back.webp);
+      }
+      #header {
+        text-align: center;
+        color: #016666cb;
+        font-size: 80px;
+        font-family: "Mulish", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: auto;
+        font-style: normal;
+      }
+
+      #container {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #add8e692;
+        border-radius: 25px;
+        padding: 15px;
+      }
+      #image {
+        align-items: center;
+        width: 250px;
+        height: 200px;
+      }
+      .label {
+        font-size: 15px;
+        font-family: "Mulish", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: auto;
+        font-style: normal;
+      }
+      .input-field {
+        width: 100%;
+        padding: 5px;
+
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+        border-radius: 5px;
+        text-align: center;
+
+        font-family: "Mulish", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: auto;
+        font-style: normal;
+      }
+      .button {
+        background-color: #1550b5;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 13px;
+        padding: 8px 20px;
+        font-size: 15px;
+        font-family: "Mulish", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: auto;
+        font-style: normal;
+      }
+      .button:hover {
+        background-color: #1550b5cb;
+      }
+      #sign-up a{
+        color: #000000;
+        text-decoration: none;
+        font-size: 20px;
+        font-family: "Mulish", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: auto;
+        font-style: normal;
+        
+        align-items: center;
+      }
+      #sign-up a:hover {
+        text-decoration: underline;
+      }
+      
+      .button-container {
+        text-align: center;
+      }
+    

@@ -1,0 +1,229 @@
+<html>
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet" />
+  <title>Account Creation Page</title>
+  <style>
+    body {
+      background-image: url("/login_back.webp");
+      background-position: center;
+    }
+
+    .table {
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #add8e6;
+      width: auto;
+      height: auto;
+      border-radius: 15px;
+      padding: 30px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+    }
+
+    #header {
+      text-align: center;
+      color: #016666;
+      font-size: 60px;
+      font-family: "Mulish", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    }
+
+    .label {
+      font-family: "Mulish", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+      font-size: 20px;
+    }
+
+    .input-field {
+      width: 100%;
+      padding: 5px;
+      display: inline-block;
+      border: none;
+      background: #f1f1f1;
+      border-radius: 5px;
+      text-align: center;
+      font-family: "Mulish", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: auto;
+      font-style: normal;
+    }
+
+    .button {
+      background-color: #1550b5;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 13px;
+      padding: 8px 20px;
+      font-size: 15px;
+      font-family: "Mulish", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: auto;
+      font-style: normal;
+    }
+
+    button:hover {
+      background-color: #1550b5cb;
+    }
+
+    .button-container {
+      text-align: center;
+    }
+
+    .button-container td {
+      text-align: center;
+    }
+  </style>
+  <script src="style.js"></script>
+</head>
+
+<body>
+  <h1 id="header">Create an account</h1>
+  <form action="inscription.php" method="post">
+    <table class="table">
+      <tr>
+        <td class="label">Last Name :</td>
+        <td>
+          <input type="text" name="Last_name" placeholder=" last name " class="input-field" id="last_name" required />
+        </td>
+      </tr>
+      <tr>
+        <td class="label">First Name :</td>
+        <td>
+          <input type="text" name="first_name" placeholder=" first name " class="input-field" id="first_name"
+            required />
+        </td>
+      </tr>
+      <tr>
+        <td class="label">Age :</td>
+        <td>
+          <input type="number" placeholder=" age " name="Age" class="input-field" id="age" required />
+        </td>
+      </tr>
+      <tr>
+        <td class="label">Wilaya :</td>
+        <td>
+          <select name="wilaya" class="input-field" id="wilaya" required>
+            <option value="">Select Wilaya</option>
+            <option value="1">1. Adrar</option>
+            <option value="2">2. Chlef</option>
+            <option value="3">3. Laghouat</option>
+            <option value="4">4. Oum El Bouaghi</option>
+            <option value="5">5. Batna</option>
+            <option value="6">6. Bejaia</option>
+            <option value="7">7. Biskra</option>
+            <option value="8">8. Bechar</option>
+            <option value="9">9. Blida</option>
+            <option value="10">10. Bouira</option>
+            <option value="11">11. Tamanrasset</option>
+            <option value="12">12. Tebessa</option>
+            <option value="13">13. Tlemcen</option>
+            <option value="14">14. Tiaret</option>
+            <option value="15">15. Tizi Ouzou</option>
+            <option value="16">16. Alger</option>
+            <option value="17">17. Djelfa</option>
+            <option value="18">18. Jijel</option>
+            <option value="19">19. Setif</option>
+            <option value="20">20. Saida</option>
+            <option value="21">21. Skikda</option>
+            <option value="22">22. Sidi Bel Abbes</option>
+            <option value="23">23. Annaba</option>
+            <option value="24">24. Guelma</option>
+            <option value="25">25. Constantine</option>
+            <option value="26">26. Medea</option>
+            <option value="27">27. Mostaganem</option>
+            <option value="28">28. M’Sila</option>
+            <option value="29">29. Mascara</option>
+            <option value="30">30. Ouargla</option>
+            <option value="31">31. Oran</option>
+            <option value="32">32. El Bayadh</option>
+            <option value="33">33. Illizi</option>
+            <option value="34">34. Bordj Bou Arreridj</option>
+            <option value="35">35. Boumerdès</option>
+            <option value="36">36. El Tarf</option>
+            <option value="37">37. Tindouf</option>
+            <option value="38">38. Tissemsilt</option>
+            <option value="39">39. El Oued</option>
+            <option value="40">40. Khenchela</option>
+            <option value="41">41. Souk Ahras</option>
+            <option value="42">42. Tipaza</option>
+            <option value="43">43. Mila</option>
+            <option value="44">44. Ain Defla</option>
+            <option value="45">45. Naâma</option>
+            <option value="46">46. Ain Temouchent</option>
+            <option value="47">47. Ghardaia</option>
+            <option value="48">48. Relizane</option>
+            <option value="49">49. Timimoun</option>
+            <option value="50">50. Bordj Badji Mokhtar</option>
+            <option value="51">51. Ouled Djellal</option>
+            <option value="52">52. Beni Abbes</option>
+            <option value="53">53. In Salah</option>
+            <option value="54">54. In Guezzam</option>
+            <option value="55">55. Touggourt</option>
+            <option value="56">56. Djanet</option>
+            <option value="57">57. El M’Ghair</option>
+            <option value="58">58. El Menia</option>
+          </select>
+
+        </td>
+      </tr>
+      <tr>
+        <td class="label">Phone Number :</td>
+        <td>
+          <input type="tel" name="Telephone" placeholder=" phone number " class="input-field" id="phone_number"
+            required />
+        </td>
+      </tr>
+      <tr>
+        <td class="label">E-mail :</td>
+        <td>
+          <input type="email" name="Email" placeholder=" E-mail" class="input-field" id="email" required />
+        </td>
+      </tr>
+      <tr>
+        <td class="label">Adresse :</td>
+        <td>
+          <textarea name="Adresse" rows="4" cols="15" placeholder="Enter your Adress" class="input-field" id="adress"
+            required></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td class="label">password:</td>
+        <td>
+          <input type="password" name="password" placeholder="password" class="input-field" id="password" required />
+        </td>
+      </tr>
+      <tr>
+        <td class="label">Confirm Your password :</td>
+        <td>
+          <input type="password" name="Confirm_password" placeholder="Confirm password" class="input-field"
+            id="confirm_password" required />
+        </td>
+      </tr>
+      <tr>
+        <td class="label">gender :</td>
+        <td class="label">
+          <input type="radio" name="gender" value="male" required />Male
+          <input type="radio" name="gender" value="female" />Female
+        </td>
+      </tr>
+      <tr class="button-container">
+        <td colspan="2">
+          <button class="button" type="submit" onclick="return validation_info()">Send</button>
+          <button class="button" type="reset">Reset</button>
+        </td>
+      </tr>
+  </form>
+  </table>
+
+</body>
+
+</html>

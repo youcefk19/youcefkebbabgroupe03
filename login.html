@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login Page</title>
+    <script src="style.js"></script>
+  </head>
+  <body>
+    <h1 id="header">Welcome</h1>
+    <link rel="stylesheet" href="style.css" />
+    <form method="post" action="login.php" onsubmit="return validation_login()">
+      <table id="container">
+        <tr>
+          <td colspan="2">
+            <img src="login.png" alt="LOGIN" id="image" />
+          </td>
+        </tr>
+        <tr>
+          <td class="label">E-mail:</td>
+          <td>
+            <input
+              name="E_mail"
+              class="input-field"
+              placeholder="E-mail"
+              id="mail"
+              type="email"
+            />
+            <p id="MailError" style="color: red"></p>
+          </td>
+        </tr>
+        <tr>
+          <td class="label">password:</td>
+          <td>
+            <input
+              type="password"
+              name="mot_de_passe"
+              placeholder="password"
+              class="input-field"
+              id="password"
+            />
+            <p id="passw" style="color: red"></p>
+          </td>
+        </tr>
+        <tr class="button-container">
+          <td colspan="2">
+            <button class="button" type="submit">
+              Send
+            </button>
+            <button class="button" type="reset">Reset</button>
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td colspan="2" id="sign-up">
+            <a href="./inscription.html" target="_blank">sign-up </a>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
